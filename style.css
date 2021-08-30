@@ -113,7 +113,7 @@ i:hover, nav ul li a.active, nav ul li a:hover{
 
     nav ul li{
         display: block;
-        margin: 5vh 45vw;
+        margin: 5vh 40vw;
         line-height: 30px;
         align-items: center;
     }
@@ -130,6 +130,18 @@ i:hover, nav ul li a.active, nav ul li a:hover{
         display: flex;
         flex-direction: column;
     }
+    .college-images{
+        flex-direction: column;
+    }
+    .ci{
+        margin-top: 20px;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
 }
 
 .intro{
@@ -137,7 +149,8 @@ i:hover, nav ul li a.active, nav ul li a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 10vh;
-    padding-bottom: 50vh;
+    height: 100vh;
+    width: 100%;
 }
 .intro-text{
     background-color: rgba(255, 255, 255, 0.8);
@@ -148,7 +161,6 @@ i:hover, nav ul li a.active, nav ul li a:hover{
     font-weight: bold;
     border-radius: 25px;
 }
-
 .college-name{
     font-size: 5rem;
     font-weight: bold;
@@ -187,7 +199,7 @@ i:hover, nav ul li a.active, nav ul li a:hover{
 
 .phil{
     margin-top: 1rem;
-    width: 50vw;
+    width: 60vw;
     line-height: 2rem;
 }
 
@@ -205,16 +217,12 @@ hr{
     margin: .5rem 0;
     line-height: 1.7rem;
 }
-.ge-body > a{
+.ge-body > a, .phil > a, li > a{
     color: blue;
 }
-
-.ge-body > a:hover{
+.ge-body > a:hover, .phil > a:hover, li > a:hover{
     background-color: none;
     text-decoration: underline;
-}
-.ge-courses{
-    margin: 0 0 1rem 2rem;
 }
 ul {
     list-style-type: circle;
@@ -316,4 +324,23 @@ html.is-leaving .transition-fade{
 
 .ci{
     width: 35vw;
+}
+
+@media (max-width: 550px){
+    .logo {
+        display: none;
+    }
+    .college-name{
+        font-size: 20vw;
+    }
+    .college-logo{
+        width: 70vw;
+        height: 50vh;
+    }
+}
+
+@media (max-width: 700px){
+    .intro{
+        height: 100%;
+    }
 }
