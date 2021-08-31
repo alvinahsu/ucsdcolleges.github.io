@@ -132,9 +132,12 @@ i:hover, nav ul li a.active, nav ul li a:hover{
     }
     .college-images{
         flex-direction: column;
+        width: 100%;
     }
     .ci{
         margin-top: 20px;
+        height: 50vh;
+        width: 50vw !important;
     }
     h1{
         font-size: 3.5rem;
@@ -229,6 +232,7 @@ ul {
 }
 .ge-container{
     margin-top: 1rem;
+    margin-right: 2rem;
     padding: 1.5rem;
     background-color: rgba(236, 235, 235, 0.8);
     border-radius: 25px;
