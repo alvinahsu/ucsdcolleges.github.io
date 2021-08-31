@@ -1,2 +1,3 @@
 # ucsdcolleges.github.io
-hello there
+This website contains information about each college at UCSD.
+Built with HTML and CSS
